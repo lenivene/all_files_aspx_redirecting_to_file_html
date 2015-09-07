@@ -1,0 +1,2 @@
+RewriteCond %{THE_REQUEST} \ /(.+)\.aspx
+RewriteRule ^ /%1.html [L,R=301]
